@@ -3,7 +3,7 @@
     "allow": [
       "Bash(chmod:*)",
       "Bash(crontab:*)",
-      "Bash(/opt/git/cron-do-something-actiave-glm4.7/activate.sh)"
+      "Bash(*activate.sh)"
     ]
   }
 }
