@@ -25,6 +25,20 @@ Coding 套餐有 5 小时的有效期限制。本工具通过 cron 定时任务�
 
 ## 使用方法
 
+### 安装bun和claude
+
+```
+sudo apt update
+sudo apt install -y unzip
+curl -fsSL https://bun.sh/install | bash
+export PATH="$HOME/.bun/bin:$PATH"
+echo 'export PATH="$HOME/.bun/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+bun --version
+bun add -g @anthropic-ai/claude-code
+bunx claude --version
+```
+
 ### 手动执行
 
 ```bash
