@@ -1,4 +1,7 @@
 #!/bin/bash
+# 确保之前手工在这个目录下启动过一次
+# 在第一次运行时，会做交互式安全确认
+cd /opt/git/cron-do-something-actiave-glm4.7/
 
 # 获取当前时间和日期
 CURRENT_TIME=$(date '+%Y-%m-%d %H:%M:%S')
