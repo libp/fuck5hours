@@ -1,4 +1,15 @@
 #!/bin/bash
+
+
+# 尽量加载常见的环境（根据你自己的情况选择性保留）
+[ -f ~/.bashrc ] && source ~/.bashrc
+[ -f ~/.bash_profile ] && source ~/.bash_profile
+[ -f ~/.profile ] && source ~/.profile
+
+# bun 的路径（非常重要）
+export PATH="/root/.bun/bin:$PATH"
+
+
 # 确保之前手工在这个目录下启动过一次
 # 在第一次运行时，会做交互式安全确认
 cd /opt/git/cron-do-something-actiave-glm4.7/
